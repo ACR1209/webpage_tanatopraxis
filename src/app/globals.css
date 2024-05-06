@@ -2,3 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.4);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.4);
+		transform: translatey(0px);
+	}
+}
+
+.float {
+    animation: float 6s ease-in-out infinite;
+}
+.float-2 {
+    animation: float 8s ease-in-out infinite;
+}
+.float-3 {
+    animation: float 4s ease-in-out infinite;
+}

@@ -47,7 +47,7 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className="flex items-center top-0 sticky w-full px-14 py-2 bg-white">
+    <nav className="flex items-center top-0 z-50 shadow sticky w-full px-14 py-2 bg-white">
       <Image
         alt="Logo"
         src="/shared/PraxisVectorized.png"
