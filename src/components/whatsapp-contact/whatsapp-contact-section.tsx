@@ -4,7 +4,7 @@ import ContactNumber from './contact-number/contact-number'
 
 function WhatsappContactSection() {
   return (
-    <section id="whatsapp-contact" className="flex relative flex-col items-center justify-center min-h-screen">
+    <section id="whatsapp-contact" className="flex relative overflow-x-hidden w-full flex-col items-center justify-center min-h-screen">
         <Image
           alt="bg"
           src="/whatsapp-contact/whatsapp.svg"
