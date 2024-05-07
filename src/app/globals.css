@@ -17,6 +17,27 @@
 	}
 }
 
+@keyframes expand {
+    0% {
+        transform: scaleX(1);
+    }
+    50% {
+        transform: scaleX(1.2);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.expand-animation {
+    animation: expand 4s ease-in-out infinite;
+}
+
+.expand-animation-2 {
+    animation: expand 4s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
 .float {
     animation: float 6s ease-in-out infinite;
 }
