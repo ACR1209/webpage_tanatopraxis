@@ -1,12 +1,11 @@
 import HeroSection from "@/components/hero/hero-section";
+import OfferSection from "@/components/offer/offer-section";
 
 export default function Home() {
   return (
     <main>
       <HeroSection/>
-      <section id="offer" className="flex min-h-screen">
-        <h1>Oferta</h1>
-      </section>
+      <OfferSection/>
 
       <section id="faq" className="flex min-h-screen bg-gray-300">
         <h1>Preguntas Frecuentes</h1>

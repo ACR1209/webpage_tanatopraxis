@@ -54,7 +54,7 @@ function Navbar() {
         width={100}
         height={100}
       />
-      <ul className="flex gap-5 ml-5">
+      <ul className="hidden lg:flex gap-5 ml-5">
         {links.map((link, index) => (
           <li key={link.name}>
             <SmartNavLink smartLink={link} />
