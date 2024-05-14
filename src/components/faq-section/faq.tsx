@@ -16,7 +16,7 @@ function FrequentAskedQuestion({
         onClick={() => setIsOpen(!isOpen)}
       >
         <h1 className="text-xl font-bold select-none">{question}</h1>
-        <div className={`w-6 h-6 transition-all ${isOpen ? "rotate-180" : ""}`}>
+        <div className={`w-6 h-6 transition-all ml-5 ${isOpen ? "rotate-180" : ""}`}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

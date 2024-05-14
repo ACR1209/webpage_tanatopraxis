@@ -45,7 +45,7 @@ const FAQs = [
 function FAQSection() {
   return (
     <div id="faq" className="w-full min-h-screen flex justify-center px-5 lg:px-44 pb-10 lg:py-10">
-      <div className="bg-gray-200 w-full flex flex-col items-center py-14 px-24 rounded-xl">
+      <div className="bg-gray-200 w-full flex flex-col items-center py-10 lg:py-14 px-5 lg:px-24 rounded-xl">
         <h1 className="font-bold text-2xl lg:text-4xl">Preguntas frecuentes</h1>
 
         <div className="w-full flex flex-col gap-10 h-full mt-5">

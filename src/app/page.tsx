@@ -1,4 +1,5 @@
 import AboutVideoSection from "@/components/about-video/about-video";
+import CourseDetails from "@/components/course-details/course-details";
 import FAQSection from "@/components/faq-section/faq-section";
 import HeroSection from "@/components/hero/hero-section";
 import OfferSection from "@/components/offer/offer-section";
@@ -12,7 +13,7 @@ export default function Home() {
       <WhatsappContactSection/>
       <AboutVideoSection/>
       <FAQSection/>
-
+      <CourseDetails/>
     </main>
   );
 }
