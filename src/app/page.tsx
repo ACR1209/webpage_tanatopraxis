@@ -1,4 +1,5 @@
 import AboutVideoSection from "@/components/about-video/about-video";
+import FAQSection from "@/components/faq-section/faq-section";
 import HeroSection from "@/components/hero/hero-section";
 import OfferSection from "@/components/offer/offer-section";
 import WhatsappContactSection from "@/components/whatsapp-contact/whatsapp-contact-section";
@@ -10,9 +11,8 @@ export default function Home() {
       <OfferSection/>
       <WhatsappContactSection/>
       <AboutVideoSection/>
-      <section id="faq" className="flex min-h-screen bg-gray-300">
-        <h1>Preguntas Frecuentes</h1>
-      </section>
+      <FAQSection/>
+
     </main>
   );
 }
