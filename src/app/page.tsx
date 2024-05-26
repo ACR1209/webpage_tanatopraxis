@@ -1,4 +1,5 @@
 import AboutVideoSection from "@/components/about-video/about-video";
+import CourseContentsSection from "@/components/course-contents/course-contents";
 import CourseDetails from "@/components/course-details/course-details";
 import FAQSection from "@/components/faq-section/faq-section";
 import HeroSection from "@/components/hero/hero-section";
@@ -14,6 +15,7 @@ export default function Home() {
       <AboutVideoSection/>
       <FAQSection/>
       <CourseDetails/>
+      <CourseContentsSection/>
     </main>
   );
 }
