@@ -1,4 +1,5 @@
 import AboutVideoSection from "@/components/about-video/about-video";
+import ContactSection from "@/components/contact/contact";
 import CourseContentsSection from "@/components/course-contents/course-contents";
 import CourseDetails from "@/components/course-details/course-details";
 import FAQSection from "@/components/faq-section/faq-section";
@@ -18,6 +19,7 @@ export default function Home() {
       <CourseDetails/>
       <CourseContentsSection/>
       <TestimonySection/>
+      <ContactSection/>
     </main>
   );
 }
