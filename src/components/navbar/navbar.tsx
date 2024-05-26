@@ -9,6 +9,8 @@ function Navbar() {
     { name: "Inicio", href: "home" },
     { name: "Oferta", href: "offer" },
     { name: "Preguntas Frecuentes", href: "faq" },
+    { name: "Testimonios", href: "testimony" },
+    { name: "Contacto", href: "contact" },
   ]);
 
   useEffect(() => {

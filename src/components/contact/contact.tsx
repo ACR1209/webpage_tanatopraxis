@@ -21,7 +21,7 @@ function ContactSection() {
   };
 
   return (
-    <div className="my-16 w-full relative flex flex-col px-5 lg:px-44">
+    <div id="contact" className="my-16 w-full relative flex flex-col px-5 lg:px-44">
       <div className="bg-primary px-10 py-20 rounded">
         <h2 className="text-xl lg:text-5xl font-bold text-white text-center">
           ¡Inscríbete hoy y comienza tu viaje en el cuidado profesional

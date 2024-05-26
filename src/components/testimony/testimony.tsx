@@ -20,7 +20,7 @@ function TestimonySection() {
   );
 
   return (
-    <div className="my-16 w-full relative flex flex-col px-5 lg:px-44">
+    <div id="testimony" className="my-16 w-full relative flex flex-col px-5 lg:px-44">
       <h1 className="text-3xl lg:text-5xl font-bold w-full text-left mb-5">
         Testimonios
       </h1>

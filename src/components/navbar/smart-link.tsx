@@ -6,7 +6,7 @@ import React from 'react'
 function SmartNavLink({smartLink} : {smartLink: SmartLink} ) {
 
   return (
-    <Link scroll={true} className={`text-lg text-black uppercase ${smartLink.isActive ? 'font-bold' : ''}`} href={`#${smartLink.href}`}>{smartLink.name}</Link>
+    <Link scroll={true} className={`text-lg text-black uppercase `} href={`#${smartLink.href}`}>{smartLink.name}</Link>
   )
 }
 
