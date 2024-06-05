@@ -12,9 +12,8 @@ function OfferSection() {
         </h1>
         <p className="text-xl">
           Inicia tu camino hacia la excelencia profesional con nuestro curso
-          avanzado en tanatopraxia y tanatoestetica. Profundizaras en metodos de
-          preservacion y restauracion, asi como tecnicas de enbellecimiento post
-          morten.
+          avanzado en tanatopraxia y tanatoestética. Profundizarás en métodos de
+          preservación y restauración, asi como técnicas de embellecimiento post-mortem.
         </p>
       </SquareSection>
       <SquareSection isFlipped imageUrl="/offer/tanatoImageOffer2.jpg" className="bg-secondary">

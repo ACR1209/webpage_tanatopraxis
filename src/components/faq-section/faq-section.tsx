@@ -18,7 +18,7 @@ const FAQs = [
     },
     {
         question: "¿Cuánto tiempo dura este curso?",
-        answer: "El curso dura cinco meses."
+        answer: "El curso dura seis meses."
     },
     {
         question: "¿Qué certificación obtendré al finalizar el curso?",        

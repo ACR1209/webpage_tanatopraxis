@@ -17,8 +17,8 @@ function CourseDetails() {
           />
         <div className="flex flex-col gap-5 mt-5 lg:mt-0 lg:pl-10">
           <CourseDetail title="Modalidad" value="Online e Hibrida" />
-          <CourseDetail title="Horas Formativas" value="700" />
-          <CourseDetail title="Duración" value="5 meses" />
+          <CourseDetail title="Horas Académicas" value="600" />
+          <CourseDetail title="Duración" value="6 meses" />
           <CourseDetail title="Requisitos" value="Ninguno" />
           <div className="flex flex-col">
             <h1 className="text-2xl font-bold">Avalado por</h1>
