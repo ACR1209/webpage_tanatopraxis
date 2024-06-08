@@ -7,12 +7,12 @@ function TestimonySection() {
     () => [
       {
         name: "Nataly Moya",
-        title: "Alumna",
+        title: "Graduada",
         videoSrc: "/videos/testimonial1.mp4",
       },
       {
         name: "Karina Grajales",
-        title: "Alumna",
+        title: "Graduada",
         videoSrc: "/videos/testimonial2.mp4",
       },
     ],
