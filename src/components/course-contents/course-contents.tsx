@@ -6,120 +6,345 @@ function CourseContentsSection() {
   const contents: CourseContent[] = useMemo(
     () => [
       {
-        title: "Módulo especial introductorio",
+        title: "Inyectología",
         content: (
           <>
-            <p>
-              El objetivo de este módulo es introducirse a las habilidades
-              básicas necesarias para elaborar correctamente tus labores como
-              tanatopractor
-            </p>
-
             <ul className="list-disc ml-5 mt-3">
-              <li>Inteligencia artificial y habilidades blandas</li>
-              <li>Primeros Auxilios</li>
-              <li>Inyectología</li>
+              <li>Canalizaciones</li>
+              <li>Primeros auxilios básicos</li>
             </ul>
           </>
         ),
       },
       {
-        title: "Módulo 1",
+        title: "Anatomía Humana aplicada a la tanatopraxia",
         content: (
           <>
-            <p>
-              El objetivo de este módulo es conocer las habilidades básicas y
-              conocimientos necesarios para realizar labores de tanatopractor
-            </p>
-
             <ul className="list-disc ml-5  mt-3">
-              <li>Anatomía Forense</li>
-              <li>Causales de muerte</li>
-              <li>Toxicología</li>
+              <li>Paquetes vasculares</li>
+              <li>Sistema circulatorio</li>
+              <li>Circulación cerrada</li>
+              <li>
+                Arterias y venas de las extremidades superiores, torácicas,
+                abdominal y extremidades inferiores
+              </li>
+              <li>Guías lineales y tejidos circundantes</li>
             </ul>
           </>
         ),
       },
       {
-        title: "Módulo 2",
+        title: "Causales de muerte y toxicología",
         content: (
           <>
-            <p>
-              El objetivo de este módulo es conocer los aspectos legales y
-              prácticos que un tanatopractor hace en su labor en el día a día
-            </p>
-
             <ul className="list-disc ml-5 mt-3">
-              <li>Medicina Legal</li>
-              <li>Técnicas de autopsia e instrumental</li>
-              <li>Bioseguridad Forense</li>
+              <li>
+                Clasificación de las causas y maneras de muerte en medicina
+                forense
+              </li>
+              <li>Definición de causas de muerte</li>
+              <li>Causas de muerte</li>
+              <li>Traumatismo craneoencefálico</li>
+              <li>Traumatismo torácico</li>
+              <li>Traumatismo abdominal</li>
+              <li>Asfixias</li>
+              <li>Quemaduras</li>
+              <li>Misceláneos</li>
+              <li>Maneras de mjuerte</li>
+              <li>Muerte natural</li>
+              <li>Muerte violenta</li>
             </ul>
           </>
         ),
       },
       {
-        title: "Módulo especial 2",
+        title: "Fenómenos cadavéricos",
         content: (
           <>
-            <p>
-              El objetivo de este módulo es conocer como realizar
-              investigaciones y como plasmarlas en textos, un aspecto
-              fundamental para la labor de tanatopractor
-            </p>
-
             <ul className="list-disc ml-5 mt-3">
-              <li>Metodología e investigación</li>
+              <li>Definición de muerte</li>
+              <li>Fenómenos de tempranos</li>
+              <li>Fenómenos tardíos conservadores y sus clasificaciones</li>
             </ul>
           </>
         ),
       },
       {
-        title: "Módulo 3",
+        title: "Introducción a la tanatopraxia y tanatoestética",
         content: (
           <>
-            <p>
-              El objetivo de este módulo es conocer como realizar las labores
-              principales que conlleva ser tanatopractor, aprendiendo a la par
-              tanatoestética
-            </p>
-
             <ul className="list-disc ml-5 mt-3">
-              <li>Tanatopraxia</li>
-              <li>Tanatoplastia y tanatoestética</li>
+              <li>Historia del embalsamiento</li>
+              <li>El maquillaje funerario en la historia</li>
+              <li>Ritos y cultos funerarios</li>
+              <li>Ritos y costumbres populares funerarias</li>
+              <li>Ritos occidentales</li>
+              <li>Ritos musulmanes o islámicos</li>
+              <li>Ritos orientales</li>
+              <li>Ritos afro-asiáticos</li>
+              <li>Ritos africanos</li>
+              <li>Ritos funerarios en la cultura americana</li>
+              <li>Otros ritos</li>
             </ul>
           </>
         ),
       },
       {
-        title: "Módulo 4",
+        title: "La sala de tanatopraxia y tanatoestética",
         content: (
           <>
-            <p>
-              El objetivo de este módulo es conocer aspectos de gestión y de
-              trato con las personas que se relacionan con el labor de
-              tanatopractor
-            </p>
-
             <ul className="list-disc ml-5 mt-3">
-              <li>Psicología forense y del duelo</li>
-              <li>Gestión funeraria</li>
+              <li>Condiciones generales de las salas de tanatopraxia</li>
+              <li>Las mesas de preparación y sus características</li>
+              <li>Los cubículos de trabajo</li>
+              <li>Acceso a la sala de tanatopraxia</li>
+              <li>Sistemas de emergencia</li>
+              <li>Instalación de refrigeración en tanatorios</li>
+              <li>Salas de preparación, tanatopraxia y tanatoestética</li>
+              <li>Cámaras frigoríficas</li>
+              <li>Sala técnica</li>
             </ul>
           </>
         ),
       },
       {
-        title: "Módulo 5",
+        title: "Gestión funeraria",
         content: (
           <>
-            <p>
-              El objetivo de este módulo es sedimentar el conocimiento de como
-              realizar las labores principales que conlleva ser tanatopractor,
-              aprendiendo a la par tanatoestética
-            </p>
-
             <ul className="list-disc ml-5 mt-3">
-              <li>Tanatoestética</li>
-              <li>Tanatopraxia</li>
+              <li>Documentación funeraria que gestionan las empresas</li>
+              <li>Certificado médico de defunción</li>
+              <li>Inscripción de defunción en el registro civil</li>
+              <li>Licencia de sepultura</li>
+              <li>Orden judicial de inhumación</li>
+              <li>Autorizaciones de traslados</li>
+              <li>Transporte funerario</li>
+              <li>
+                Ritos y cultos funerarios relativos a las necesidades mortuorias
+              </li>
+              <li>Protocolo funerario</li>
+              <li>
+                Deontología y ética profesional relativas a la tanatopraxia
+              </li>
+              <li>Ética profesional</li>
+              <li>Secreto profesional</li>
+              <li>Código de ética profesional del tanatopractor</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        title:
+          "Legislación Sanitaria, Seguridad y Salud Laboral: Marco Normativo Nacional e Internacional",
+        content: (
+          <>
+            <ul className="list-disc ml-5 mt-3">
+              <li>Titulo III, de los derechos garantías y deberes</li>
+              <li>Capítulo IV, De la seguridad social del trabajador</li>
+              <li>Convenio 139 OIT, sustancias cangerígenas</li>
+              <li>Convenio 170 OIT, productos químicos en el trabajo</li>
+              <li>Titulo IV, capitulo 1, definiciones y responsabilidades </li>
+              <li>Titulo IV, capitulo 2, accidentes e incapacidades</li>
+              <li>Titulo IV, capitulo 3, enfermedades profesionales</li>
+              <li>Titulo IV, capitulo 4, indemnizaciones</li>
+              <li>Titulo IV, capitulo 5, prevención</li>
+              <li>
+                Artículo 416, obligaciones respecto a la prevención de riesgo
+              </li>
+              <li>I, disposiciones generales</li>
+              <li>II, condiciones generales de los centros de trabajo</li>
+              <li>III, aparatos máquinas y herramientas</li>
+              <li>IV, Manipulación y transporte</li>
+              <li>V, Protección colectiva</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        title: "Organismos de regulación nacional",
+        content: (
+          <>
+            <ul className="list-disc ml-5 mt-3">
+              <li>Ministerio de salud - ARCSA</li>
+              <li>Ministerio del medio ambiente</li>
+              <li>Ministerio del interior</li>
+              <li>Ministerio del trabajo - SETEC</li>
+              <li>IESS, dpto. de riesgo laboral</li>
+              <li>Municipio</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        title: "Técnicas de embalsamiento",
+        content: (
+          <>
+            <ul className="list-disc ml-5 mt-3">
+              <li>Embalsamiento arterial</li>
+              <li>Embalsamiento de cavidades</li>
+              <li>Embalsamiento tópico</li>
+              <li>Embalsamiento intradérmico</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        title: "Centros de embalsamamiento",
+        content: (
+          <>
+            <ul className="list-disc ml-5 mt-3">
+              <li>Pisos y paredes</li>
+              <li>Iluminación</li>
+              <li>Tipo de ventilación</li>
+              <li>Mesas de trabajo</li>
+              <li>Instrumental</li>
+              <li>Equipos</li>
+              <li>Área de asepsia</li>
+              <li>Tratamiento de lixiviados</li>
+              <li>Accesos de entrada</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        title: "Fallas en el embalsamamiento",
+        content: (
+          <>
+            <ul className="list-disc ml-5 mt-3">
+              <li>Tipos de enfermedad y casos</li>
+              <ul className="list-decimal ml-5">
+                <li>Arteriosclerosis</li>
+                <li>Trombosis</li>
+                <li>Cirrosis</li>
+                <li>Infarto</li>
+                <li>Insuficiencia renal</li>
+                <li>Cuerpos autopsiados, congelados o refrigerados</li>
+                <li>Multi traumáticos</li>
+                <li>Soluciones acuosas</li>
+              </ul>
+            </ul>
+          </>
+        ),
+      },
+      {
+        title: "Fórmulas en el embalsamiento",
+        content: (
+          <>
+            <ul className="list-disc ml-5 mt-3">
+              <ul className="list-decimal ml-5">
+                <li>Factores a considerar</li>
+                <li>Peso</li>
+                <li>Causa de defunción</li>
+                <li>Años de edad</li>
+                <li>Tiempo de custodia</li>
+              </ul>
+            </ul>
+          </>
+        ),
+      },
+      {
+        title: "Tanatoestética",
+        content: (
+          <>
+            <ul className="list-disc ml-5 mt-3">
+              <li>El maquillaje funerario</li>
+              <li>Conocimientos básicos del color</li>
+              <li>El estudio del rostro</li>
+              <li>Estudio del rostro sobre plano horizontal</li>
+              <li>Estudio del rostro sobre plano vertical</li>
+              <li>La clasificación de los óvalos</li>
+              <li>La armonía entre los elementos del rostro</li>
+              <li>Utensilios de maquillaje</li>
+              <li>Maniobras previas y aseo mortuorio</li>
+              <li>Aplicación de cosméticos</li>
+              <li>Proceder al maquillaje mortuorio</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        title: "Tanatoplastía y tipos de suturas",
+        content: (
+          <>
+            <ul className="list-disc ml-5 mt-3">
+              <li>Arete restaurativo y resconstructivo</li>
+              <li>Cera restaurativa</li>
+              <li>Carne artificial</li>
+              <li>Proceso en la reconstrucción por accidentes traumáticos</li>
+              <li>Clasificación de tipos de heridas, regulares e irregulares</li>
+              <li>Suturas</li>
+              <li>Aproximación</li>
+              <li>Eversión</li>
+              <li>Inversión</li>
+              <li>Prótesis</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        title: "Bioseguridad",
+        content: (
+          <>
+            <ul className="list-disc ml-5 mt-3">
+              <li>Medidas preventivas</li>
+              <li>Precauciones estándar</li>
+              <li>Lavado y desinfección de manos</li>
+              <li>EPP/EPI</li>
+              <li>Esquema de vacunación</li>
+              <li>Riesgos químicos, físicos, biológicos, psicosociales y otros factores de riesgo</li>
+              <li>Disminución de riesgo químico</li>
+              <li>Hojas de seguridad</li>
+              <li>MSDS y SDS</li>
+              <li>Sistema HMIS</li>
+              <li>Tipo de peligro</li>
+              <li>Grado de peligro</li>
+              <li>Categorización Internacional de infecciones tanatotransmisibles</li>
+              <li>Limpieza</li>
+              <li>Desinfección y esterilización</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        title: "Clasificación de desechos",
+        content: (
+          <>
+            <ul className="list-disc ml-5 mt-3">
+              <li>Desechos peligrosos</li>
+              <li>Desechos y/o residuos no peligrosos, infecciosos, biológicos, cortopunzantes, anatomo-patológicos</li>
+              <li>Desechos primarios y temporales</li>
+              <li>Almacenamiento, recoleción y transporte</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        title: "Tanatología Online",
+        content: (
+          <>
+            <ul className="list-disc ml-5 mt-3">
+              <li>Definición de la muerte</li>
+              <li>Tanatopraxia, la importancia de estar psicológicamente preparado</li>
+              <li>Etapas del proceso de duelo</li>
+              <li>Tipos de duelo, capacitación para el acompañamiento y abordaje del duelo</li>
+              <li>Introducción a la tanatología</li>
+              <li>Conceptos generales</li>
+              <li>Tanatología</li>
+              <li>Forense</li>
+              <li>Cadáver</li>
+              <li>Muerte</li>
+              <li>Diagnóstico clínico de muerte</li>
+              <li>Diagnósticos relativos y absolutos de muerte</li>
+              <li>Tipos y formas de muerte</li>
+              <li>Muerte celular</li>
+              <li>Muerte real</li>
+              <li>Muerte aparente</li>
+              <li>Muerte cerebral</li>
+              <li>Muerte súbita</li>
+              <li>Muerte repentina</li>
+              <li>Causas de muerte</li>
+              <li>Cronotanatodiagnóstico</li>
+              <li>Agonía</li>
             </ul>
           </>
         ),
