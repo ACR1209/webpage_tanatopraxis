@@ -397,7 +397,7 @@ function CourseContentsSection() {
           </ul>
         </div>
 
-        <div className="w-full lg:w-2/3 flex flex-col border rounded-lg px-10 py-5">
+        <div className="w-full lg:w-2/3 h-fit flex flex-col border rounded-lg px-10 py-5">
           <h1 className="text-2xl font-bold">{selectedContent.title}</h1>
           <hr className="my-3" />
           {selectedContent.content}
