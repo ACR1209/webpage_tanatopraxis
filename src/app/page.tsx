@@ -20,6 +20,7 @@ export default function Home() {
       <FAQSection/>
       <CourseDetails/>
       <CourseContentsSection/>
+      <WhatsappContactSection/>
       <TestimonySection/>
       <ContactSection/>
     </main>
