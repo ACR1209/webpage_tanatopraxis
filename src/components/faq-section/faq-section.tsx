@@ -22,11 +22,11 @@ const FAQs = [
     },
     {
         question: "¿Qué certificación obtendré al finalizar el curso?",        
-        answer: "Recibirás un certificado de finalización que acredita tus conocimientos y habilidades en tanatoestética y tanatopraxia, respaldado por nuestro centro de capacitación y por la Universidad de los hemisferios"
+        answer: "Recibirás un certificado de finalización que acredita tus conocimientos y habilidades en tanatoestética y tanatopraxia, respaldado por el CENTRO DE CAPACITACIÓN CONTINUA PRAXIS y por la UNIVERSIDAD DE LOS HEMISFERIOS"
     },
     {
         question: "¿Hay prácticas profesionales incluidas en el curso?",
-        answer: " Sí, el curso incluye módulos prácticos"
+        answer: " Sí, el curso incluye módulos prácticos, donde se realizan prácticas reales en lugares profesionales donde se realizan labores de tanatoestetica y tanatopraxia."
     },
     {
         question: "¿Cómo me puedo inscribir?",

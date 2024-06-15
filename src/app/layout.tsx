@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Kanit, Oswald, Roboto, Rubik  } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar/navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const rubik = Rubik({
+  subsets: ["latin"],
+}) 
 
 export const metadata: Metadata = {
   title: "Praxis - Experto en Tanatopraxia y Tanatoestetica",
@@ -17,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={rubik.className}>
         <Navbar />
         {children}
       </body>
