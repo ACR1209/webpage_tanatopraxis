@@ -7,10 +7,12 @@ import HeroSection from "@/components/hero/hero-section";
 import OfferSection from "@/components/offer/offer-section";
 import TestimonySection from "@/components/testimony/testimony";
 import WhatsappContactSection from "@/components/whatsapp-contact/whatsapp-contact-section";
+import WhatsappFloating from "@/components/whatsapp-contact/whatsapp-floating";
 
 export default function Home() {
   return (
     <main>
+      <WhatsappFloating/>
       <HeroSection/>
       <OfferSection/>
       <WhatsappContactSection/>
