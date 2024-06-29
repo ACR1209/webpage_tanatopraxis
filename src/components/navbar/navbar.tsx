@@ -4,6 +4,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import SmartNavLink from "./smart-link";
 import { SmartLink } from "@/types/navbar";
 import EnrollButton from "../shared/enroll-button";
+import Link from "next/link";
 
 function Navbar() {
   const [links, setLinks] = useState<SmartLink[]>([
@@ -64,6 +65,7 @@ function Navbar() {
               <SmartNavLink smartLink={link} />
             </li>
           ))}
+          <Link href="/blog" className={`text-lg text-black uppercase `}>Blog</Link>
         </ul>
       </div>
 
