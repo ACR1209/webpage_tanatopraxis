@@ -20,7 +20,7 @@ function BlogPage() {
 
       <div className="flex flex-col gap-5 mt-5">
         {blogPosts?.map((post) => (
-          <BlogPost {...post} />
+          <BlogPost key={post.id} {...post} />
         ))}
       </div>
     </div>
