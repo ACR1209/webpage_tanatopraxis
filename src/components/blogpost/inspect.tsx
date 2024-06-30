@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { BlogPost as BlogPostType } from "@/types/blog";
-import Link from "next/link";
 import Image from "next/image";
 import { pocketBaseUrl } from "@/utils";
 
@@ -11,7 +10,6 @@ export default function InspectClient({
   blogpost: BlogPostType;
 }) {
   const content = { __html: blogpost.content };
-
   return (
     <div>
 
@@ -44,7 +42,7 @@ export default function InspectClient({
 
         <hr className="my-5"/>
 
-        <div dangerouslySetInnerHTML={content}></div>
+        <div className="rich-text" dangerouslySetInnerHTML={content}></div>
       </div>
     </div>
   );
