@@ -1,3 +1,4 @@
+import AboutCourseSection from "@/components/about-course-section/about-course-section";
 import AboutVideoSection from "@/components/about-video/about-video";
 import CertificateSection from "@/components/certificate-section/certificate-section";
 import ContactSection from "@/components/contact/contact";
@@ -22,6 +23,7 @@ export default function Home() {
       <CourseDetails/>
       <CertificateSection/>
       <CourseContentsSection/>
+      <AboutCourseSection/>
       <WhatsappContactSection/>
       <TestimonySection/>
       <ContactSection/>
