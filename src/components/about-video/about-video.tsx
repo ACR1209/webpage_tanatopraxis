@@ -17,20 +17,6 @@ function AboutVideoSection() {
         <source src="/videos/videoTanato.mp4" type="video/mp4" />
       </video>
 
-      <div className="w-full mt-5   lg:h-[700px] relative z-10 flex flex-col lg:flex-row">
-        <video controls className="lg:w-1/3 px-5 h-full">
-          <source src="/videos/oecVideo.mp4" type="video/mp4" />
-        </video>
-        <video controls className="lg:w-1/3 px-5 h-full">
-          <source src="/videos/talleresVideo.mp4" type="video/mp4" />
-        </video>
-        <video controls className="lg:w-1/3 px-5 h-full">
-          <source src="/videos/idkVideo.mp4" type="video/mp4" />
-        </video>
-
-      </div>
-
-
       <div className="w-1/2 h-1/5 lg:block hidden absolute bottom-10 right-0  bg-secondary" />
     </section>
   );
