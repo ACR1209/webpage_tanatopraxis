@@ -4,6 +4,8 @@ import CertificateSection from "@/components/certificate-section/certificate-sec
 import ContactSection from "@/components/contact/contact";
 import CourseContentsSection from "@/components/course-contents/course-contents";
 import CourseDetails from "@/components/course-details/course-details";
+import EndorsedOECSection from "@/components/endorsed-section/endorsed-oec-section";
+import EndorsedSection from "@/components/endorsed-section/endorsed-section";
 import FAQOECSection from "@/components/faq-section/faq-oec-section";
 import FAQSection from "@/components/faq-section/faq-section";
 import HeroSection from "@/components/hero/hero-section";
@@ -18,6 +20,7 @@ export default function Home() {
     <main>
       <WhatsappFloating/>
       <HeroSection/>
+      <EndorsedSection/>
       <OfferSection/>
       <WhatsappContactSection/>
       <AboutVideoSection/>
@@ -29,6 +32,7 @@ export default function Home() {
       <WhatsappContactSection/>
       <TestimonySection/>
       <OecVideoSection/>
+      <EndorsedOECSection/>
       <FAQOECSection/>
       <ContactSection/>
     </main>
