@@ -25,7 +25,7 @@ function AboutCourseSection() {
       icon: "/icons/practiceIcon.png",
       title: "Prácticas reales",
       description:
-        "Te aseguramos de que completes las prácticas reales donde se realizan labores de tanatoestetica y tanatopraxia.",
+        "Te aseguramos de que completes las prácticas reales donde se realizan labores de tanatoestética y tanatopraxia.",
     },
     {
       icon: "/icons/experienceIcon.png",
