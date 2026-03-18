@@ -5,9 +5,7 @@ function CertificateSection() {
   const certificate = useMemo(() => {
     return [
       "/certificates/certificate1.jpg",
-      "/certificates/certificate2.jpg",
       "/certificates/certificate3.jpg",
-      "/certificates/certificate4.jpg",
     ];
   }, []);
 
