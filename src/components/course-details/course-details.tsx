@@ -23,12 +23,13 @@ function CourseDetails() {
           <div className="flex flex-col">
             <h1 className="text-2xl font-bold">Avalado por</h1>
             <Image
-              alt="bg"
-              src="/avals.png"
-              width={500}
-              height={500}
-              className="w-full -mt-5"
-            />
+                    alt="logo de la cámara artesanal del pichincha"
+                    src="/logos/cap.png"
+                    width={500}
+                    height={500}
+                    className="h-24 lg:h-40 w-auto"
+                />
+            
           </div>
         </div>
       </div>
